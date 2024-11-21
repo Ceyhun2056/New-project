@@ -47,3 +47,7 @@ function DrawSpiral(context) {
         turnRight(89);
     }
 }
+
+function redirectTo(url){
+    window.location.href=url;
+}

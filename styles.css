@@ -1,12 +1,72 @@
 :root {
     --ada-blue: #336178;
     --ada-red: #ae485e;
+    --header: #1E90FF;
+    --text-dark:#333333;
+    --text-light: #fdfefe;
+    --blue: #00aaff;
+    --nav-hover: #007acc;
+    --body:#FFFFFF;
+   
 }
 
 body {
-    background-color: var(--ada-blue);
+    background-color: var(--body);
+    color: var(--text-dark);
+    font-family: Arial, sans-serif;;
+    --header: #2d3e50;
+    --text-light: #fdfefe;
+    --blue: #00aaff;
+    --nav: #007acc;
+    --body: #f4f4f4;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--header);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
 }
 
+header h1{
+    font-size: 3rem; 
+    color: var(--text-light);
+    text-align: center;
+    margin: 0;
+    flex: 1
+}
+nav{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: var(--nav);
+}
 .team-members {
     display: flex;
     justify-content: center;
@@ -14,7 +74,7 @@ body {
     margin: 20px;
 }
 .member{
-    background-color: #2c2c2c;
+background-color:var (--header);
 border: 1px solid #444;
 border-radius: 10px;
 margin: 10px;
@@ -51,4 +111,44 @@ transition: 0.3s ease;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.more-info:hover{
+   background-color: #007acc;
+}
+
+.team-info{
+    text-align: center;
+    margin: 20px;
+}
+.team-info p{
+    color: #ccc;
+    margin: auto;
+    max-width: 600px;
+
+}
+
+footer {
+    background-color: var(--ada-red);
+    color: var(--text-light);
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+footer a {
+    color: var(--text-light);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--nav);
+}
+
+.Insta {
+    color: #fdfefe;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
 }
