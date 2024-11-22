@@ -20,10 +20,40 @@ body {
     --nav: #007acc;
     --body: #f4f4f4;
 }
+#logo{
+    position: absolute;
+    top: 30px;
+    left:10px ;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#logo:hover{
+    transform: scale(1.1);
+}
+#team-logo{
+    position: absolute;
+    top: 0px;
+    right:10px ;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#team-logo:hover{
+    transform: scale(1.1);
+}
+
+
 header {
     text-align: center;
     padding: 20px;
-    background-color: var(--header);
+    background-color: var(--ada-blue);
     padding: 20px;
     display: flex;
     align-items: center;
@@ -67,6 +97,8 @@ nav ul li a {
 nav ul li a:hover {
     background-color: var(--nav);
 }
+
+
 .team-members {
     display: flex;
     justify-content: center;
@@ -74,7 +106,7 @@ nav ul li a:hover {
     margin: 20px;
 }
 .member{
-background-color:var (--header);
+background-color:var (var(--header));
 border: 1px solid #444;
 border-radius: 10px;
 margin: 10px;
@@ -139,10 +171,12 @@ footer {
 footer a {
     color: var(--text-light);
     text-decoration: none;
+    position: relative;
 }
 
 footer a:hover {
     color: var(--nav);
+    
 }
 
 .Insta {

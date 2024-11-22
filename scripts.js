@@ -51,3 +51,4 @@ function DrawSpiral(context) {
 function redirectTo(url){
     window.location.href=url;
 }
+
