@@ -191,3 +191,41 @@ footer a:hover {
     text-align: center;
     color: var(--blue);
 }
+.video{
+    outline: none;
+    top: 0px;
+    left:10px ;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    margin-top: 10px;
+    background-color:var(--ada-blue) ;
+    color:white ;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.video:hover{
+   background-color: #007acc;
+}
+
+.photos{
+    top: 40px;
+    left:10px ;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    margin-top: 10px;
+    background-color: var(--ada-blue) ;
+    color:white ;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.photos:hover{
+   background-color: #007acc;
+}
