@@ -197,7 +197,6 @@ footer a:hover {
     left:10px ;
     width: 150px;
     height: auto;
-    position: absolute;
     margin-top: 10px;
     background-color:var(--ada-blue) ;
     color:white ;
@@ -217,7 +216,6 @@ footer a:hover {
     left:10px ;
     width: 200px;
     height: auto;
-    position: absolute;
     margin-top: 10px;
     background-color:var(--ada-blue) ;
     color:white ;
@@ -270,4 +268,23 @@ footer a:hover {
     transform:scale(1.05);
     transition: 0.3s ease;
     }
-    
+#hour-of-code{
+    color:var(--ada-red);
+    text-align: center;
+    font-size: 3rem;
+}    
+
+#team-logo-2{
+    position: absolute;
+    top: 0px;
+    left:10px ;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#team-logo-2:hover{
+    transform: scale(1.1);
+}
