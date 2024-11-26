@@ -52,3 +52,12 @@ function redirectTo(url){
     window.location.href=url;
 }
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const menuButton = document.getElementById('menu-button');
+    const menuIcons = document.getElementById('menu-icons');
+
+    menuButton.addEventListener('click', function() {
+        menuIcons.classList.toggle('hidden');
+    });
+});
