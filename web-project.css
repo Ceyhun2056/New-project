@@ -1,0 +1,168 @@
+:root {
+    --ada-blue: #336178;
+    --ada-red: #ae485e;
+    --header: #1E90FF;
+    --text-dark:#333333;
+    --text-light: #fdfefe;
+    --blue: #00aaff;
+    --nav-hover: #007acc;
+    --body:#FFFFFF;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: var(--body);
+    color: var(--text-dark);
+    font-family: Arial, sans-serif;;
+    --header: #2d3e50;
+    --text-light: #fdfefe;
+    --blue: #00aaff;
+    --nav: #007acc;
+    --body: #f4f4f4;
+}
+
+#team-logo{
+    position: absolute;
+    top: 0px;
+    left:10px ;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#team-logo:hover{
+    transform: scale(1.1);
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--ada-blue);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+header h1{
+    font-size: 3rem; 
+    color: var(--text-light);
+    text-align: center;
+    margin: 0;
+    flex: 1;
+    margin-left: 20px;
+}
+
+#menu-button {
+    background-color: var(--ada-blue);
+    color: var(--text-light); 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    margin-right:0px;
+    font-size: 1rem;
+}
+
+#menu-icons {
+    gap: 10px;
+    position: absolute; 
+    top: 100%;
+    right:0; 
+    background-color: var(--body); 
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#menu-icons a {
+    display: block;
+    margin-bottom: 10px; 
+    text-decoration: none;
+    color: var(--text-dark);
+}
+
+#menu-icons.hidden {
+    display: none;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--ada-red);
+    text-align: center;
+    margin: 20px;
+}
+
+.flashcards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.flashcard {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.flashcard:hover {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.front {
+    background-color: var(--body);
+    color: var(--text-dark);
+}
+
+.back {
+    background-color: var(--body);
+    color: var(--text-dark);
+    transform: rotateY(180deg);
+}
+h2{
+    font-size: 1.5rem;
+    color: var(--body);
+    text-align: center;
+    margin: 20px;
+}
+footer {
+    background-color: var(--ada-red);
+    color: var(--text-light);
+    text-align: center;
+    padding: 20px 0;
+}
+.insta{
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--body);
+    text-decoration: none;
+}
