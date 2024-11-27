@@ -9,6 +9,11 @@
     --body:#FFFFFF;
    
 }
+*{
+    margin: 0;
+    padding: 0;
+
+}
 
 body {
     background-color: var(--body);
@@ -118,7 +123,7 @@ transition: 0.3s ease;
 
 .member img{
     width:100px ;
-    height: 100px;
+    height:100px;
     border-radius:50% ;
     margin-bottom: 10px;
 }
@@ -231,7 +236,7 @@ h2{
     text-align: center;
 }
 .logic-gate{
-
+transform: 0.3s ease;
 width: 400px;
 height:400px;
 padding: 20px;
@@ -242,6 +247,10 @@ margin-left: 40px;
 margin-bottom: 50px;
 
 
+}
+.logic-gate:hover{
+transform: scale(1.1);
+transition: 0.3s ease;
 }
 .flashcards-container {
     display: flex;
@@ -289,7 +298,7 @@ margin-bottom: 50px;
 }
 
 .ADA-logo{
-    bottom:420px;
+    bottom:300px;
     width: 100px;
     height: auto;
     position: relative;
