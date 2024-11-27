@@ -127,6 +127,12 @@ header h1{
         color: var(--ada-blue);
     
     }
+
+    h1{
+        font-size: 2rem;
+        color: var(--ada-blue);
+        text-align: center;
+    }
 footer {
     background-color: var(--ada-red);
     color: var(--text-light);
