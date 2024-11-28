@@ -124,13 +124,9 @@ footer a:hover {
     width: 100px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
 }
 
-#team-logo-2:hover{
-    transform: scale(1.1);
-}
+
 
 .icon-container{    
     margin-left: 60px;
@@ -221,8 +217,10 @@ footer a:hover {
 }
 
 .media a {
+    justify-content: center;
     display:inline-block;
     margin:0 30px;
+    bottom:80px;
  
 
 }
