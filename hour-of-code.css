@@ -220,17 +220,33 @@ footer a:hover {
     transform: rotateY(180deg);
 }
 
-.Links{
-    position: relative;
-    display: flex;
-    padding: 10px;
-    cursor: pointer;
-    
+.media a {
+    display:inline-block;
+    margin:0 30px;
+ 
 
+}
+#Instagram{
+    height: 35px;
+    width: auto;
+    
+}
+
+#YouTube{
+    justify-content: center;
+    height: 40px;
+    width: auto;
+    
+}
+
+#facebook{
+    height: 40px;
+    width: auto;
+    
 }
 
 .ADA-logo{
-    bottom:70px;
+    bottom:40px;
     width: 100px;
     height: auto;
     position: relative;

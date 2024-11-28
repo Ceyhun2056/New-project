@@ -30,13 +30,10 @@ body {
     width: 100px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
+   
 }
 
-#team-logo:hover{
-    transform: scale(1.1);
-}
+
 
 
 header {
@@ -158,4 +155,12 @@ footer a:hover {
     position: relative;
     display: flex;
     padding: 10px;
+}
+
+
+#Instagram{
+    margin-top: 20px;
+    width: 50px;
+    height: auto;
+    justify-content: center;
 }

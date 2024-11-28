@@ -160,9 +160,8 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
-.insta{
-    align-items: center;
-    font-size: 1.5rem;
-    color: var(--body);
-    text-decoration: none;
+#Instagram{
+    height: 35px;
+    width: auto;
+    margin-right: 200px;
 }

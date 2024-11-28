@@ -177,12 +177,19 @@ footer a:hover {
     
 }
 
-.Insta {
-    color: var(--body);
-    display: flex;
-    padding: 10px;
-    cursor: pointer;
-    position: relative;
+#Instagram{
+    margin-top: 20px;
+    height: 35px;
+    width: auto;
+    margin-right: 200px;
+}
+
+#YouTube{
+    margin-top: 20px;
+    justify-content: center;
+    height: 40px;
+    width: auto;
+    margin-right: 50px;
 }
 
 
@@ -298,7 +305,7 @@ transition: 0.3s ease;
 }
 
 .ADA-logo{
-    bottom:300px;
+    bottom:280px;
     width: 100px;
     height: auto;
     position: relative;
