@@ -206,13 +206,14 @@ footer a:hover {
 }
 
 .front {
-    background-color: var(--body);
-    color: var(--text-dark);
+   
+    background-color: var(--ada-blue);
+    color: var(--text-light);
 }
 
 .back {
-    background-color: var(--body);
-    color: var(--text-dark);
+    background-color: var(--ada-red);
+    color: var(--text-light);
     transform: rotateY(180deg);
 }
 
