@@ -7,7 +7,7 @@
 <html>
     <head>
         <title>Team 60</title>
-        <link rel="icon" href="/media/logo.jpg" type="image/jpeg">
+        <link rel="icon" href="/media/logo-removebg-preview.png" type="image/jpeg">
         <link rel="stylesheet" href="styles.css">
         <script type="text/javascript" src="scripts.js"></script>
     </head>
@@ -15,8 +15,8 @@
 
 <header>     
     <a href="index.html"> <img id="team-logo" src="/media/logo-removebg-preview.png" alt="Team-logo"></a>
-    <h1>Team 60</h1>
-
+    <h1>Innovators</h1>
+<button id="dark-mode-toggle" ><img src="/media/dark-mode (1).png"></button>
     <button id="menu-button" >Menu</button>
     <div id="menu-icons" class="hidden">
     <a class="button" href="/index.html">Home</a>
@@ -47,12 +47,6 @@
         <button class="more-info" onclick='redirectTo("team-members.html")'>More info</button>
         </div>
 
-
-        <div class='member'>
-            <img src=""  alt='Faig Tahmazov'>
-            <h3> Member 4</h3>
-            <button class="more-info" onclick='redirectTo("team-members.html")'>More info</button>
-            </div>
         </section>
 
             <section class="achievements">
@@ -68,11 +62,11 @@
 
            
             <section class="Logic Gates">
-            
+        
 <h2>Logic Gates</h2>
-<img  class='logic-gate'src="/media/logic-gate.jpg">
-<img  class='logic-gate'src="/media/logic-gate-2.jpg">
-<img  class='logic-gate'src="/media/logic-gate-3.jpg">
+<img  class='logic-gate'src="media/gate-2.jpg">
+<img  class='logic-gate'src="media/gate-1.jpg">
+<img  class='logic-gate'src="media/gate-3.jpg">
 
 <div class="flashcards-container">
     <div class="flashcard">
@@ -127,5 +121,12 @@ Our journey as Team 60 has been one of growth, collaboration, and resilience. Wi
 
 
 </footer>
+
+<script type="text/javascript">
+    document.getElementById('dark-mode-toggle').addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+    });
+</script>
+
  </body>
 </html>

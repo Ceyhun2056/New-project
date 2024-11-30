@@ -7,7 +7,7 @@
 <html>
     <head>
         <title> Hour of Code</title>
-        <link rel="icon" href="/media/logo.jpg" type="image/jpeg"> <!-- Add this line -->
+        <link rel="icon" href="/media/logo-removebg-preview.png" type="image/jpeg"> 
         <link rel="stylesheet" href="hour-of-code.css">  
         <script type="text/javascript" src="scripts.js"></script>      
     </head>
@@ -15,6 +15,7 @@
         <header>
             <h1>Team 60</h1>
       <a href="index.html"> <img  id='team-logo-2' src="/media/logo-removebg-preview.png" alt="Team-logo-2"></a>
+      <button id="dark-mode-toggle"><img src="/media/dark-mode (1).png"></button>
       <button id="menu-button" >Menu</button>
             <div id="menu-icons" class="hidden">
             <a class="button" href="/index.html">Home</a>
@@ -54,10 +55,10 @@
 <section>
     <h2 style="color: var(--ada-red); font-size: 3rem; text-align: center;">Photos</h2>
 
-<img  id='photo-1' src="/media/code-2.jpg">
-<img  id='photo-1' src="/media/CODE-1.jpg">
-<img  id='photo-1' src="/media/code-3.jpg">
-<img  id='photo-1' src="/media/code-4.jpg">
+<img id='photo-1' src="/media/code-2.jpg">
+<img id='photo-1' src="/media/CODE-1.jpg">
+<img id='photo-1' src="/media/code-3.jpg">
+<img id='photo-1' src="/media/code-4.jpg">
 <img id="photo-1" src="/media/code-5.jpg">
 <img id="photo-1" src="/media/code-6.jpg">
 </section>
@@ -72,7 +73,7 @@
 </section>
 
 <footer>
-<h3 style=font-size:2rem>Social Media</h3>
+<h3 style=font-size:2rem>More content from the Event</h3>
 
 
 <img  class='ADA-logo'src="/media/ada_logo_white.png">
@@ -80,8 +81,14 @@
         
      <a href="https://youtube.com/shorts/k1Us84suR4E?si=VI1F5R2Ng0DkChCM&sfnsn=wa"><img  id="YouTube"src="/media/youtube.png"></a>
       <a href="https://www.facebook.com/share/p/1Jgu4xUB6R/"><img id="facebook" src="/media/facebook.png"></a>
-    <a href="'https://www.instagram.com/p/DCMkv0ZszFf/?img_index=1"><img  id='Instagram'src="/media/instagram.png"></a>
+    <a href="https://www.instagram.com/p/DCMkv0ZszFf/?img_index=1"><img  id='Instagram'src="/media/instagram.png"></a>
     </div>
 </footer>
+<script type="text/javascript">
+    document.getElementById('dark-mode-toggle').addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+    });
+
+</script>
     </body>
 </html>

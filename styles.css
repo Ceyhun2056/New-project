@@ -34,7 +34,25 @@ body {
     height: auto;
     border-radius: 10px;
 }
-
+body.dark-mode {
+    background-color: var(--text-dark);
+    color: var(--text-dark);
+}
+ #dark-mode-toggle {
+    background-color: var(--ada-blue);
+    color: var(--text-light); 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+#dark-mode-toggle img {
+    width: auto;
+    height: 40px;
+}
 
 
 

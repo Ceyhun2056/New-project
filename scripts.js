@@ -61,3 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
         menuIcons.classList.toggle('hidden');
     });
 });
+
+document.getElementById('dark-mode-toggle').addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+    });
