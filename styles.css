@@ -214,18 +214,13 @@ footer a:hover {
     border: 1px solid var(--body);
     border-radius: 8px;
 }
-#achievements h2 {
-    text-align: center;
-    font-size: 3rem;
-    color: var(--ada-blue);
-}
+
+
 #achievements ul {
     padding-left: 20px;
 }
 
-#achievements a{
-    text-decoration: none;
-}
+
 
 .achievement{
     background-color:var(--body);
